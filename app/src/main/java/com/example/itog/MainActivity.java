@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     int start_x = 0;
     int end_x = 0;
 
+    
     @Override
     //Функция определения свайпа
     public boolean onTouchEvent(MotionEvent event) {
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 end_x = (int) event.getX();//Определяем координату Х
                 break;
         }
+
 
         if (start_x != 0 && end_x != 0) {//Если координаты не 0
             if (start_x > end_x) {
