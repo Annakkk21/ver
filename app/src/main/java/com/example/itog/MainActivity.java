@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     int start_x = 0;
     int end_x = 0;
 
-    
+
     @Override
     //Функция определения свайпа
     public boolean onTouchEvent(MotionEvent event) {
